@@ -1,0 +1,61 @@
+1.Se crea el GameObject del arbol.
+
+2.Se le coloca a este el talar arboles.js
+
+3.Te pedira cuantos spawners habra en el arbol, introduces la cantidad.
+
+4.En spawns ahora te pedira varios elementos dependiendo de la cantidad de spawners que hayas solicitado
+
+5.Crea GameObjects vacios iguales a la cantidad de spawns que introdujiste.
+
+6.los GameObjects debes colocarlos a lo largo del arbol (por ejemplo un spawn en el tronco y otro en la copa del arbol ).
+
+7.Despues de haberlos ajustado coloca los spawns (GameObjects vacios) dentro del hierarchy del arbol.
+
+8.te pedira ahora en la siguiente pestana prefabs.
+
+9.colocas cuales objetos puede spawnear este arbol.
+
+10.si son mas de uno el sistema escojera aleatoriamente uno de los prefabs y los spawneara en todos los spawns.
+
+11.Hardness es la dureza del arbol, por defecto viene en 100.
+
+12.Distance es la distancia minima que necesitas estar cerca del arbol para cortarlo por defecto esta en 21 muy recomendado dejar este valor.
+
+13.player es el jugador, arrastrarlo a aqui.
+
+14.Object To Cut es el mismo arbol! seleccionas el arbol en hierarchy con todos sus desplegables y lo arrastras a aqui.
+
+15.Fall Time es el tiempo en segundos que cuando el arbol se termine de cortar durante esos segundos el arbol caera y luego que pasen esos segundos se spawnearan los objetos.
+
+16.Wood Cutting SFX es el sonido que hara mientras talas el arbol, en la carpeta hay uno por defecto pero puedes cambiarlo.
+
+17.WCSFXDuration es el tiempo que durara el sonido de Wood Cutting SFX recomendado colocar aqui en segundos la duracion total del Wood Cutting SFX
+
+18.Spawn SFX es el sonido que hara cuando el arbol caiga y hayan pasado los segundos del Fall Time, en ese momento sonara el Spawn SFX y se spawnearan los objetos o troncos.
+
+19.Crear un Capsule Collider (o cualquier collider que sirva y no se vea extrano cuando caiga) en el arbol para que cuando caiga no traspase el suelo, el capsule collider o derivados no debe tocar el suelo.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Recomendaciones y Advertencias
+
+1.Hacer un arbol grande y alto para mejor efecto cuando cae y para albergar de manera mas comoda los spawns.
+
+2.El arbol NO NECESITA Y NO DEBE LLEVAR UN RIGIDBODY, la script se encarga de eso.
+
+3.Esta Script es de uso libre.
+
+4.los prefabs si quieres que tengan todo el efecto deben llevar un Rigidbody, de lo contrario cuando el arbol caiga los prefabs quedaran flotando en el aire.
+
+Script hecha por Hidanshira
+
+A&M Studios
+
+si quieres saber mas de nuestros siguientes proyectos siguenos en
+
+a-m-studios.jimdo.com
+
+o a nuestro correo
+
+a-m-studios@hotmail.com

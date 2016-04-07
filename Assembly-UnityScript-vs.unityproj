@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FD268873-29C0-2753-D6AF-F40D95AF3AAE}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Inventory\Scripts\Character.js" />
+     <Compile Include="Assets\Inventory\Scripts\Inventory.js" />
+     <Compile Include="Assets\Inventory\Scripts\InventoryDisplay.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\EquipmentEffect.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\FirstPersonPickUp.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\Item.js" />
+     <Compile Include="Assets\Inventory\Scripts\Items\ItemEffect.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\ChangeScene.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\InvAudio.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\InvPauseGame.js" />
+     <Compile Include="Assets\Inventory\Scripts\Other\WeaponSwitch.js" />
+     <Compile Include="Assets\Recursos survival\Recursos survival\scripts\Survivalcontroller.js" />
+     <Compile Include="Assets\Recursos survival\Recursos survival\scripts\agua.js" />
+     <Compile Include="Assets\Recursos survival\Recursos survival\scripts\botiquin.js" />
+     <Compile Include="Assets\Recursos survival\Recursos survival\scripts\comida.js" />
+     <Compile Include="Assets\Recursos survival\Recursos survival\scripts\dropspawner.js" />
+     <Compile Include="Assets\Recursos survival\Recursos survival\scripts\muerte.js" />
+     <Compile Include="Assets\TerrainComposer\Runtime\RegenerateTerrains.js" />
+     <Compile Include="Assets\TerrainComposer\Runtime\RuntimeTerrains.js" />
+     <Compile Include="Assets\TerrainComposer\Runtime\TerrainHeight.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\Drawing_tc.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\LatLong_Conversion.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\Presets\save_grass_preset.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\Presets\save_rtp_preset.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\Presets\save_splat_preset.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\Presets\save_tree_preset.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\TerrainDetail.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\TerrainNeighbors.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\camera_control.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\global_classes.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\global_settings_tc.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\jpg_encoder.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\save_grass.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\save_template.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\save_trees.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\terraincomposer_classes.js" />
+     <Compile Include="Assets\TerrainComposer\Scripts\terraincomposer_save.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

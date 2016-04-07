@@ -1,0 +1,63 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-6416
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=4159 outsize=1016 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (67): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=3447 outsize=0 kw=WATER_REFRACTIVE ok=0
+Cmd: preprocess
+  insize=280 outsize=280 ok=1
+Cmd: preprocess
+  insize=1413 outsize=1908 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5117 outsize=8164 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5117 outsize=2940 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2922 outsize=7798 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2922 outsize=3362 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2201 outsize=4825 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2201 outsize=868 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=12815 outsize=2577 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (59): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=10254 outsize=0 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=0
+Cmd: preprocess
+  error: 1 plat 12 at (65): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=1938 outsize=790 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=956 outsize=2412 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=956 outsize=990 kw= ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (250): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=6012 outsize=2266 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2105 outsize=8262 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2105 outsize=1038 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1194 outsize=4825 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1194 outsize=868 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=11975 outsize=2458 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=9537 outsize=0 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=0
+Cmd: preprocess
+  insize=1394 outsize=1394 ok=1
+Cmd: preprocess
+  insize=1802 outsize=526 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (28): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=1581 outsize=0 kw= ok=0
+Unhandled exception: Readfile from pipe failed. GLE=Ha terminado la canalización.
+
+
+Quitting shader compiler process
