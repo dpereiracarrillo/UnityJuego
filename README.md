@@ -7,9 +7,17 @@ Te encuentras en un amplio bosque sin comida ni recursos. Tienes una barra de vi
 
 
 Para hacer que las barras de estadísticas del personaje aumenten debes recoger los objetos que hay escondidos por el mapa. Puedes encontrar:
+
+
   -Un botiquín que te aumenta la vida en 20
+  
+  
   -Una botella de agua que te aumenta la barra de sed en 10
+  
+  
   -Una fruta que te aumenta la barra de hambre en 10
+  
+  
 Estos objetos no son fáciles de encontrar ya que están esparcidos por todo el bosque gracias a la aleatoriedad de los spawns de objetos que he puesto.
 
 
